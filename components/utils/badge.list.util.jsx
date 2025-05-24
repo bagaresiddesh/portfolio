@@ -63,7 +63,7 @@ export default function Badges({ list, block, color, fullContainer }) {
 				whileHover="hover"
 		>
 		{
-		list.map( ({ key, name, type }) => {
+		list?.map( ({ key, name, type }) => {
 			return ( 
 				<m.li 
 					key={name} 

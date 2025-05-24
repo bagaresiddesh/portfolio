@@ -29,31 +29,31 @@ export default function Technical() {
       <Container spacing={["verticalXXXLrg"]}>
         <SectionTitle
           title="Technical"
-          preTitle="Hardskills"
-          subTitle="As a creative technologist, I craft intuitive digital experiences using a diverse set of tools and languages."
+          preTitle="My Stack"
+          subTitle="A well-balanced mix of modern frameworks, languages, and platforms"
         />
         <section className={`${about.content} ${about.container}`}>
           <div className={about.copy}>
-            <CopyBlock
+            {/* <CopyBlock
               title="Polymath foundations"
               icon={["fat", "chart-network"]}
               copy="With a strong foundation in both design and development, I bring a unique perspective to every project and am constantly learning and evolving to stay up-to-date with the latest industry trends."
               iconClass={about.icon}
               containerClass={about.container}
-            />
+            /> */}
             <BadgesBlock
-              title="Software I love to work with"
-              copy="With over 20 years of experience creating digital assets, I have a deep and intuitive understanding of how the interfaces of the best software products in the world are designed. This is just some of the software I have used over that time."
+              title="Environments That Power My Workflow"
+              copy="These are the tools and platforms I rely on to design, develop, collaborate, and deploy efficiently."
               list={software}
               block="software"
               fullContainer="fullContainer"
-              icon="grid-2-plus"
+              icon="toolbox"
               containerClass={about.container}
               headerIcon={about.icon}
             />
             <BadgesBlock
-              title="Technologies I love to build with"
-              copy="I deeply enjoy solving problems through code. From the front end all the way to the back end and the APIs in-between. No project is too challenging for me."
+              title="Core Technologies I Work With"
+              copy="From crafting dynamic interfaces to building scalable server-side logic, these are the technologies I use day-to-day to bring ideas to life."
               list={tech}
               block="tech"
               fullContainer="fullContainer"
@@ -84,6 +84,11 @@ const software = [
   { key: "postman", name: "Postman", type: "devicon" },
   { key: "swagger", name: "Swagger", type: "devicon" },
   { key: "figma", name: "Figma", type: "devicon" },
+  { key: "git", name: "Git", type: "devicon" },
+  { key: "github", name: "Github", type: "devicon" },
+  { key: "gitlab", name: "Gitlab", type: "devicon" },
+  { key: "bitbucket", name: "bitbucket", type: "devicon" },
+  { key: "amazonwebservices", name: "AWS", type: "devicon" },
 ];
 
 const tech = [
@@ -99,7 +104,6 @@ const tech = [
   { key: "html5", name: "HTML5", type: "devicon" },
   { key: "css3", name: "CSS3", type: "devicon" },
   { key: "sass", name: "SASS", type: "devicon" },
-  { key: "git", name: "Git", type: "devicon" },
   { key: "mysql", name: "MySQL", type: "devicon" },
-  { key: "amazonwebservices", name: "AWS", type: "devicon" },
+  { key: "dynamodb", name: "dynamodb", type: "devicon" },
 ];

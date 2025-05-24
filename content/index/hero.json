@@ -12,16 +12,16 @@
 
   "header": {
     "name": "Siddesh Bagare",
-    "usp": "I design and build meaningful experiences."
+    "usp": "Driven by logic, powered by curiosity, and fueled by creativity."
   },
 
-  "paragraph": "I am a digital polymath — a constantly evolving digital creator driven by a passion for lifelong learning and the desire to leave a lasting impact.",
+  "paragraph": "Software Engineer focused on building thoughtful and impactful digital experiences.",
 
   "buttons": {
     "primary": {
       "title": "Contact Me",
       "url": "",
-      "leaveSite": false
+      "leaveSite": true
     },
     "secondary": {
       "title": "LinkedIn",

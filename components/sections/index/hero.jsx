@@ -59,9 +59,9 @@ export default function Hero() {
         />
         <section>
           <h1 className={hero.header}>{content.header.name}</h1>
-          <h1 className={`${hero.header} ${hero.primaryDim}`}>
+          <h2 className={`${hero.subHeader} ${hero.primaryDim}`}>
             {content.header.usp}
-          </h1>
+          </h2>
         </section>
         <section>
           <p
