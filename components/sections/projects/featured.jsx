@@ -15,9 +15,9 @@ export default function FeaturedProjects() {
     <Section classProp={css.hasBg}>
       <Container spacing={"verticalXXXXLrg"}>
         <SectionTitle
-          title="The Art of Observation"
+          title="The Art"
           preTitle="My Creative Space"
-          subTitle="Beyond logic and code, there lies art"
+          subTitle="Beyond logic and code, there lies Art"
         />
         {content.map((data, index) => {
           return <FeaturedProject content={data} index={index} key={index} />;

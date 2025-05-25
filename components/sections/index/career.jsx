@@ -27,7 +27,7 @@ export default function Career() {
         <section className={career.area}>
           <article className={career.company}>
             <span className={career.icon}>
-              <Icon icon={["fat", "user-tie"]} />
+              <Icon icon={["fat", "briefcase"]} />
             </span>
             <div className={career.companyHeader}>
               <h3 className={career.companyName}>

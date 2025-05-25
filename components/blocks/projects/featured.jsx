@@ -40,7 +40,7 @@ export default function FeaturedProject({ content }, index) {
     >
       <div className={css.details}>
         <span className={css.icon}>
-          <Icon icon={["fat", "user-tie"]} />
+          <Icon icon={["fat", "pencil"]} />
         </span>
         <div className={css.projectHeader}>
           <div className={css.header}>

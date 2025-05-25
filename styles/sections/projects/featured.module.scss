@@ -56,7 +56,7 @@
   gap: var(--size-1x);
 
   p {
-    font-size: 1.5rem;
+    font-size: var(--font-r);
     line-height: 1.5;
 
     strong {
@@ -121,7 +121,7 @@
   z-index: 3;
   position: relative;
   display: block;
-  width: 50%;
+  width: 60%;
   border-radius: 1rem;
   flex-grow: 1;
   flex-shrink: 0;

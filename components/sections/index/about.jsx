@@ -42,7 +42,7 @@ export default function About() {
               title="Tech & Professional Life"
               containerClass={about.container}
               iconClass={about.icon}
-              icon={["fat", "ear-listen"]}
+              icon={["fat", "code"]}
               copy="I have nearly 4 years of experience building enterprise-grade web applications at IncubXperts, where I've evolved from intern to core contributor across diverse projects. I specialize in crafting clean UIs and scalable backends. I excel in Agile environments, and my logical thinking, strong communication, and deep technical understanding allow me to collaborate cross-functionally and drive projects from concept to deployment."
             />
             <CopyBlock
@@ -50,7 +50,7 @@ export default function About() {
               containerClass={about.container}
               block="methods"
               iconClass={about.icon}
-              icon={["fat", "fingerprint"]}
+              icon={["fat", "seedling"]}
               copy="Away from the screen, I'm a self-taught charcoal sketch artist, specializing in detailed portraits. I was born and raised in Pune, I enjoy gardening and spending quality time with friends and family. I occasionally help my mumma in the kitchen, and yes, I cook some delicious food that I absolutely love eating. Rooted in a Marathi, middle-class background, I value peace, purpose, and meaningful relationships. I blend logic with creativity and carry a quiet belief in karma and spiritual growth."
             />
           </div>

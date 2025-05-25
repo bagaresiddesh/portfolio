@@ -68,6 +68,17 @@
     }
   }
 
+  ul {
+    list-style-type: square;
+    display: flex;
+    flex-direction: column;
+  }
+
+  li {
+    display: block;
+    margin: 0.5rem;
+  }
+
   .companyName {
     cursor: pointer;
   }
@@ -157,17 +168,17 @@
         max-width: 100%;
       }
       p {
-        font-size: 0.8rem;
+        font-size: var(--font-r);
       }
       ul.list {
         li {
-          font-size: 0.8rem;
+          font-size: var(--font-r);
         }
       }
 
       ul:not(.list) {
         li {
-          font-size: 0.6rem;
+          font-size: var(--font-r);
         }
       }
     }
