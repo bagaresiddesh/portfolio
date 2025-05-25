@@ -15,12 +15,11 @@ export default function HomePage() {
     <>
       <Color colors={colors} />
       <Hero />
-      {/* <Looking /> */}
       <About />
-      <FeaturedProjects />
-
+      <Career />
       <Technical />
-      {/* <Career /> */}
+      {/* <Looking /> */}
+      <FeaturedProjects />
     </>
   );
 }

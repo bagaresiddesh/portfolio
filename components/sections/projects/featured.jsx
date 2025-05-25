@@ -15,32 +15,14 @@ export default function FeaturedProjects() {
     <Section classProp={css.hasBg}>
       <Container spacing={"verticalXXXXLrg"}>
         <SectionTitle
-          title="Experience"
-          preTitle="Career Journey"
-          subTitle="Growth through hands-on learning, real-world projects, and purposeful impact"
+          title="The Art of Observation"
+          preTitle="My Creative Space"
+          subTitle="Beyond logic and code, there lies art"
         />
         {content.map((data, index) => {
           return <FeaturedProject content={data} index={index} key={index} />;
         })}
       </Container>
-      <div className={css.bgContainer}>
-        <span className={css.orbitalBg}>
-          <span className={`${css.bgSection}`}>
-            <span
-              className={`${css.bgInner} ${css.heroLeft} ${css.heroOrbital}`}
-            ></span>
-          </span>
-          <span className={`${css.bgSection}`}>
-            <span className={`${css.bgInner} ${css.heroCenter}`}></span>
-          </span>
-          <span className={`${css.bgSection}`}>
-            <span
-              className={`${css.bgInner} ${css.heroRight} ${css.heroOrbital}`}
-            ></span>
-          </span>
-        </span>
-        <span className={css.afterGlowBg}></span>
-      </div>
     </Section>
   );
 }
