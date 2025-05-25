@@ -51,7 +51,7 @@ export default function About() {
               block="methods"
               iconClass={about.icon}
               icon={["fat", "fingerprint"]}
-              copy="Away from the screen, I'm a self-taught charcoal sketch artist, with a focus on realistic facial portraits. I'm deeply spiritual, emotionally grounded, and proud of my Marathi roots. Born and raised in Pune, I love gardening in my free time. I value meaningful relationships, deep conversations, and peaceful living. A single child from a middle-class family, I hold a profound respect for karma, culture, and community. My personality is a mix of analytical thinking and creative instinct, one that thrives on logic, empathy, and aesthetics."
+              copy="Away from the screen, I'm a self-taught charcoal sketch artist, specializing in detailed portraits. I was born and raised in Pune, I enjoy gardening and spending quality time with friends and family. I occasionally help my mumma in the kitchen, and yes, I cook some delicious food that I absolutely love eating. Rooted in a Marathi, middle-class background, I value peace, purpose, and meaningful relationships. I blend logic with creativity and carry a quiet belief in karma and spiritual growth."
             />
           </div>
         </section>

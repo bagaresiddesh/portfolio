@@ -175,7 +175,7 @@ export default function SetTheme() {
                     }
                     function o(e, n) {
                       return Object.entries(e)
-                        .map(([e, t]) => t.getDeclaration(e, n))
+                        .map(([e, t]) => t?.getDeclaration(e, n))
                         .join("\n");
                     }
                     const a = this;
@@ -265,7 +265,7 @@ export default function SetTheme() {
                     if (i.excludeFrom !== n) {
                       if ("array" === i.type)
                         return (
-                          i.value[0].getDeclaration(e, n, i.value.length) +
+                          i.value[0]?.getDeclaration(e, n, i.value.length) +
                           `\nconst int ${e}_length = ${i.value.length};`
                         );
                       if ("struct" === i.type) {
@@ -275,7 +275,7 @@ export default function SetTheme() {
                           `uniform struct ${s} \n\t\t\t\t\t\t\t\t{\n` +
                             Object.entries(i.value)
                               .map(([e, t]) =>
-                                t.getDeclaration(e, n).replace(/^uniform/, "")
+                                t?.getDeclaration(e, n).replace(/^uniform/, "")
                               )
                               .join("") +
                             `\n} ${e}${t > 0 ? `[${t}]` : ""};`

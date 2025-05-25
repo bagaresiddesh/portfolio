@@ -2,19 +2,19 @@
   "social": [
     {
       "url": "mailto:siddeshbagare@gmail.com",
-      "icon": "envelopes"
+      "icon": "envelope"
     },
     {
-      "url": "https://www.instagram.com/bagare_siddesh?igsh=ODk5cGM0OGhoZWdk",
-      "icon": "instagram"
+      "url": "https://github.com/bagaresiddesh",
+      "icon": "github"
     },
     {
       "url": "https://www.linkedin.com/in/siddesh-bagare-57466419a/",
       "icon": "linkedin"
     },
     {
-      "url": "https://github.com/bagaresiddesh",
-      "icon": "github"
+      "url": "https://www.instagram.com/bagare_siddesh?igsh=ODk5cGM0OGhoZWdk",
+      "icon": "instagram"
     }
   ]
 }
