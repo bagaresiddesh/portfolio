@@ -34,9 +34,9 @@ library.add(fat, fal, fas, fad, far, fab);
 export default function Icon({ icon }) {
   const [iconType, iconKey] = icon;
 
-  const [stateIconKey, setIconKey] = useState("circle-notch");
+  const [stateIconKey, setIconKey] = useState("");
 
   useEffect(() => setIconKey(iconKey), [iconKey]);
 
-  return <FontAwesomeIcon icon={[iconType, stateIconKey]} />;
+  return stateIconKey && <FontAwesomeIcon icon={[iconType, stateIconKey]} />;
 }

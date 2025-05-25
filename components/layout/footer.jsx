@@ -38,7 +38,7 @@ export default function Footer() {
                 return (
                   <a key={index} href={url} rel="noreferrer" target="_blank">
                     {icon == "envelope" && <Icon icon={["fas", icon]} />}
-                    <Icon icon={["fab", icon]} />
+                    {icon != "envelope" && <Icon icon={["fab", icon]} />}
                   </a>
                 );
               })}
