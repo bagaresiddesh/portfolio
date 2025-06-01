@@ -1,12 +1,8 @@
 import Image from "next/image";
-
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { m, useAnimation, AnimatePresence } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-
-import Badges from "../../utils/badge.list.util";
 import Icon from "../../utils/icon.util";
-
 import css from "../../../styles/sections/projects/featured.module.scss";
 
 export default function FeaturedProject({ content }, index) {
@@ -28,21 +24,27 @@ export default function FeaturedProject({ content }, index) {
   }, [controls, inView]);
 
   const [currentIndex, setCurrentIndex] = useState(0);
+  const intervalRef = useRef(null);
+  const [isHovered, setIsHovered] = useState(false);
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentIndex((prev) => (prev + 1) % images.length);
-    }, 2000); // 2 seconds
+    if (!isHovered) {
+      intervalRef.current = setInterval(() => {
+        setCurrentIndex((prev) => (prev + 1) % images.length);
+      }, 2000);
+    }
 
-    return () => clearInterval(interval);
-  }, [images.length]);
+    return () => {
+      if (intervalRef.current) clearInterval(intervalRef.current);
+    };
+  }, [isHovered, images.length]);
 
   const current = images[currentIndex];
 
-  const fadeVariants = {
-    initial: { opacity: 0 },
-    animate: { opacity: 1 },
-    exit: { opacity: 0 },
+  const swipeVariants = {
+    initial: { x: "100%", opacity: 0 },
+    animate: { x: 0, opacity: 1 },
+    exit: { x: "-100%", opacity: 0 },
   };
 
   return (
@@ -58,7 +60,7 @@ export default function FeaturedProject({ content }, index) {
     >
       <div className={css.details}>
         <span className={css.icon}>
-          <Icon icon={["fat", "pencil"]} />
+          <Icon icon={["fat", "palette"]} />
         </span>
         <div className={css.projectHeader}>
           <div className={css.header}>
@@ -70,16 +72,21 @@ export default function FeaturedProject({ content }, index) {
         </div>
       </div>
 
-      <div className={css.imageContainer}>
+      <div
+        className={css.imageContainer}
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
+        onClick={() => setIsHovered((prev) => !prev)}
+      >
         <span className={css.imageAnimationContainer}>
           <AnimatePresence mode="wait">
             <m.div
-              key={current.key}
-              variants={fadeVariants}
+              key={`sketch-${images[currentIndex].key}-${currentIndex}`} // Unique key for each transition
+              variants={swipeVariants}
               initial="initial"
               animate="animate"
               exit="exit"
-              transition={{ duration: 0.5 }}
+              transition={{ duration: 0.6, ease: "easeInOut" }}
             >
               <Image
                 src={current.url}
