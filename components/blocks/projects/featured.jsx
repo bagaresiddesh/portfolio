@@ -1,7 +1,7 @@
 import Image from "next/image";
 
-import { useEffect } from "react";
-import { m, useAnimation } from "framer-motion";
+import { useEffect, useState } from "react";
+import { m, useAnimation, AnimatePresence } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 import Badges from "../../utils/badge.list.util";
@@ -26,6 +26,24 @@ export default function FeaturedProject({ content }, index) {
       controls.start("hidden");
     }
   }, [controls, inView]);
+
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prev) => (prev + 1) % images.length);
+    }, 2000); // 2 seconds
+
+    return () => clearInterval(interval);
+  }, [images.length]);
+
+  const current = images[currentIndex];
+
+  const fadeVariants = {
+    initial: { opacity: 0 },
+    animate: { opacity: 1 },
+    exit: { opacity: 0 },
+  };
 
   return (
     <m.section
@@ -53,17 +71,25 @@ export default function FeaturedProject({ content }, index) {
       </div>
 
       <div className={css.imageContainer}>
-        <span className={`${css.imageAnimationContainer}`}>
-          {images.map(({ key, url, hover, h, w }, index) => {
-            hover = hover === "left" ? hoverLeft : hoverRight;
-            return (
-              <m.div key={`${index}-${key}`} variants={item}>
-                <m.div variants={hover}>
-                  <Image src={url} alt="x" height={h} width={w} />
-                </m.div>
-              </m.div>
-            );
-          })}
+        <span className={css.imageAnimationContainer}>
+          <AnimatePresence mode="wait">
+            <m.div
+              key={current.key}
+              variants={fadeVariants}
+              initial="initial"
+              animate="animate"
+              exit="exit"
+              transition={{ duration: 0.5 }}
+            >
+              <Image
+                src={current.url}
+                alt="Charcoal Portrait"
+                height={current.h}
+                width={current.w}
+                priority
+              />
+            </m.div>
+          </AnimatePresence>
         </span>
       </div>
     </m.section>

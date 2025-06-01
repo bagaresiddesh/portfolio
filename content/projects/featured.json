@@ -1,7 +1,6 @@
 [
   {
     "project": "The Charcoal Corner",
-    "url": "https://mysupplyco.com",
     "repo": "Private",
     "descriptionTitle": "Outside of my professional life..",
     "description": "I'm a self-taught sketch artist with a love for capturing emotion through minimal mediums. I specialize in charcoal portraits, focusing on facial detail, expression, and realism. Each sketch is a reflection of patience, depth, and perspective, qualities that echo in my coding journey as well. Art has taught me mindfulness, attention to detail, and creative flow. I consider it not just a hobby but a vital part of my identity. In this space, I'll be showcasing some of my favorite works.",
@@ -12,21 +11,14 @@
         "hover": "right",
         "h": "440",
         "w": "300",
-        "url": "/img/sketch.jpg"
+        "url": "/img/sketch1.jpg"
       },
       {
         "key": "mock-stack",
         "hover": "right",
-        "h": "1200",
-        "w": "556",
-        "url": "/img/msc-mock_stack/02.png"
-      },
-      {
-        "key": "mock-stack",
-        "hover": "left",
-        "h": "1200",
-        "w": "556",
-        "url": "/img/msc-mock_stack/01.png"
+        "h": "440",
+        "w": "300",
+        "url": "/img/sketch2.jpg"
       }
     ]
   }
