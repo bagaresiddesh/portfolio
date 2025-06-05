@@ -19,6 +19,20 @@
         "h": "440",
         "w": "300",
         "url": "/img/sketch2.jpg"
+      },
+      {
+        "key": "mock-stack",
+        "hover": "right",
+        "h": "440",
+        "w": "300",
+        "url": "/img/sketch3.jpg"
+      },
+      {
+        "key": "mock-stack",
+        "hover": "right",
+        "h": "440",
+        "w": "300",
+        "url": "/img/sketch4.jpg"
       }
     ]
   }
