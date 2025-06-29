@@ -102,7 +102,7 @@
     --mesh-color-4: #c8ceda
 }
 
-:root[data-theme=unicorn] {
+/* :root[data-theme=unicorn] {
     --primary-bright: #000000;
     --primary: #2e2e2e;
     --primary-dim: #464646;
@@ -122,6 +122,6 @@
     --mesh-color-2: #f296cc;
     --mesh-color-3: #efe2ba;
     --mesh-color-4: #c8d7da
-}
+} */
 
 /*# sourceMappingURL=variables.css.map */
