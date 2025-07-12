@@ -1,5 +1,4 @@
 // Core packages
-import { Analytics } from '@vercel/analytics/react'
 import { LazyMotion, domAnimation } from 'framer-motion'
 
 // Utils
@@ -39,7 +38,6 @@ export default function MyApp ({ Component, pageProps }) {
         <Layout>
           <Component {...pageProps} />
           <SetGridGap />
-          <Analytics />
         </Layout>
       </LazyMotion>
     </>
