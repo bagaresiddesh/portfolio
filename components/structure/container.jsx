@@ -1,12 +1,12 @@
 // Utility packages
-import Spacing from '../utils/spacing.util';
+import Spacing from '../utils/spacing.util'
 
 // Structure scss
-import css from '../../styles/structure/container.module.scss';
+import css from '../../styles/structure/container.module.scss'
 
 /**
  * Structural Component
- * 
+ *
  * Section / Container / Componenents / Blocks / Utils
  *          ¯¯¯¯¯¯¯¯¯¯¯
  * @param {string}	classProp template literals of classes for container
@@ -14,13 +14,12 @@ import css from '../../styles/structure/container.module.scss';
  * @param {jsx} 	children children elements
  * @returns {jsx}	<Container />
  */
-export default function Container({ classProp, spacing, children }) {
+export default function Container ({ classProp, spacing, children }) {
+  const _class = classProp ? classProp : ''
 
-	const _class = classProp ? classProp : '';
-
-	return ( 
-		<div className={`${css.readingWidth} ${_class} ${Spacing(spacing)}`}>
-			{children}
-		</div>
-	);
+  return (
+    <div className={`${css.readingWidth} ${_class} ${Spacing(spacing)}`}>
+      {children}
+    </div>
+  )
 }

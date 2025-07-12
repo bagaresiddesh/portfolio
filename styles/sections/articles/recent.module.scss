@@ -1,4 +1,4 @@
-@import "../../scss/mixins";
+@import '../../scss/mixins';
 
 .section {
   background: var(--background-dim);
@@ -79,7 +79,7 @@
     background: var(--background-dim);
 
     &:before {
-      content: "";
+      content: '';
       border-top: 1px solid var(--primary-dark);
       position: absolute;
       top: 0;

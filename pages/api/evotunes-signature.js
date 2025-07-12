@@ -1,6 +1,6 @@
-export default function handler(req, res) {
+export default function handler (req, res) {
   // Get data submitted in request's body.
-  const body = req.body;
+  const body = req.body
 
   // Guard clause checks for required fields,
   // and returns early if they are not found
@@ -13,7 +13,7 @@ export default function handler(req, res) {
     !body.websiteUrl
   ) {
     // Sends a HTTP bad request error code
-    return res.status(400).json({ data: "Please fill out all fields" });
+    return res.status(400).json({ data: 'Please fill out all fields' })
   }
 
   // Found the data.
@@ -24,6 +24,6 @@ export default function handler(req, res) {
     positionTitle: body.positionTitle,
     phoneNumber: body.phoneNumber,
     companyName: body.companyName,
-    websiteUrl: body.websiteUrl,
-  });
+    websiteUrl: body.websiteUrl
+  })
 }

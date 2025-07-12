@@ -2,7 +2,7 @@ $badgeText: --primary;
 $border: --primary-dark;
 $background: --background-dim2;
 
-@import "styles/scss/mixins";
+@import 'styles/scss/mixins';
 
 .badgeBlockContainer {
   &:not(:last-of-type) {
@@ -64,7 +64,7 @@ $background: --background-dim2;
     }
 
     &:before {
-      content: "";
+      content: '';
       position: absolute;
       top: 0;
       left: 0;
@@ -77,7 +77,7 @@ $background: --background-dim2;
     }
 
     &:after {
-      content: "";
+      content: '';
       position: absolute;
       top: 0;
       left: 0;

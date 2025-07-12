@@ -1,5 +1,5 @@
 // Career component
-@import "../../scss/mixins";
+@import '../../scss/mixins';
 
 .section {
   .area {
@@ -129,7 +129,7 @@
             position: absolute;
             margin-left: -1.5rem;
             &:before {
-              content: "⇒";
+              content: '⇒';
             }
           }
         }

@@ -1,4 +1,4 @@
-@import "../scss/_mixins";
+@import '../scss/_mixins';
 
 .container {
   position: fixed;
@@ -61,7 +61,7 @@
     }
 
     &:after {
-      content: "";
+      content: '';
       position: absolute;
       z-index: -1;
       top: 0;
@@ -94,7 +94,7 @@
     height: 0;
     z-index: -1;
 
-    &[data-open="true"] {
+    &[data-open='true'] {
       height: 100vh;
     }
   }
@@ -136,7 +136,7 @@
       }
     }
 
-    &[data-open="true"] {
+    &[data-open='true'] {
       span {
         &:first-of-type {
           transform: rotate(45deg);
@@ -149,8 +149,8 @@
       }
     }
 
-    &[data-open="true"]:hover span:first-of-type,
-    &[data-open="true"]:hover span:last-of-type {
+    &[data-open='true']:hover span:first-of-type,
+    &[data-open='true']:hover span:last-of-type {
       width: 22px;
     }
 
@@ -195,7 +195,7 @@
       max-height: 0vh;
       overflow: hidden;
 
-      &[data-open="true"] {
+      &[data-open='true'] {
         transition: transform, cubic-bezier(0.4, 0, 0.2, 1), 300ms;
         max-height: 100vh;
         transform: translate3d(0px, 0px, 1px);

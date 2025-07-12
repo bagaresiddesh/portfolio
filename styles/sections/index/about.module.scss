@@ -1,4 +1,4 @@
-@import "../../scss/mixins";
+@import '../../scss/mixins';
 
 // Section
 .section {
@@ -16,31 +16,6 @@
     h3 {
       position: relative;
       color: var(--primary);
-
-      // &:before {
-      // 	content: '';
-      // 	position: absolute;
-      // 	left: calc( $padding * -1 );
-      // 	width: 18px;
-      // 	aspect-ratio: 1/1;
-      // 	background-color: var(--primary-bright);
-      // 	border-radius: 99rem;
-      // 	border: 3px solid var(--background);
-      // 	top: 50%;
-      // 	transform: translate(-50%, -50%);
-      // }
-
-      // &:after {
-      // 	content: '';
-      // 	position: absolute;
-      // 	left: calc( $padding * -1 );
-      // 	width: 9px;
-      // 	aspect-ratio: 1/1;
-      // 	background-color: var(--background);
-      // 	border-radius: 99rem;
-      // 	top: 50%;
-      // 	transform: translate(-50%, -50%);
-      // }
     }
 
     .container {

@@ -1,37 +1,37 @@
 // Core packages
-import Icon from "../../utils/icon.util";
+import Icon from '../../utils/icon.util'
 // Section structure
-import Section from "../../structure/section";
-import Container from "../../structure/container";
-import Link from "next/link";
+import Section from '../../structure/section'
+import Container from '../../structure/container'
+import Link from 'next/link'
 // Section general blocks
-import SectionTitle from "../../blocks/section.title.block";
+import SectionTitle from '../../blocks/section.title.block'
 
 // Career scss
-import career from "../../../styles/sections/index/career.module.scss";
+import career from '../../../styles/sections/index/career.module.scss'
 
 /**
  * Section: Career
  *
  * @returns {jsx} <Career />
  */
-export default function Career() {
+export default function Career () {
   return (
     <Section classProp={`${career.section} borderBottom`}>
-      <Container spacing={["verticalXXXLrg"]}>
+      <Container spacing={['verticalXXXLrg']}>
         <SectionTitle
-          title="Experience"
-          preTitle="Career Journey"
-          subTitle="Growth through hands-on learning, real-world projects, and purposeful impact"
+          title='Experience'
+          preTitle='Career Journey'
+          subTitle='Growth through hands-on learning, real-world projects, and purposeful impact'
         />
         <section className={career.area}>
           <article className={career.company}>
             <span className={career.icon}>
-              <Icon icon={["fat", "briefcase"]} />
+              <Icon icon={['fat', 'briefcase']} />
             </span>
             <div className={career.companyHeader}>
               <h3 className={career.companyName}>
-                <Link href={"https://incubxperts.com/"} target="_blank">
+                <Link href={'https://incubxperts.com/'} target='_blank'>
                   Incubxperts TechnoConsulting Pvt Ltd
                 </Link>
               </h3>
@@ -90,37 +90,37 @@ export default function Career() {
         </section>
       </Container>
     </Section>
-  );
+  )
 }
 
 const fullStack = [
-  { key: "javascript", name: "JavaScript", type: "devicon" },
-  { key: "nodejs", name: "NodeJS", type: "devicon" },
-  { key: "react", name: "React", type: "devicon" },
-  { key: "nextjs", name: "NextJS", type: "devicon" },
-  { key: "php", name: "PHP", type: "devicon" },
-  { key: "wordpress", name: "WordPress", type: "devicon" },
-  { key: "woocommerce", name: "WooCommerce", type: "devicon" },
-  { key: "html5", name: "HTML5", type: "devicon" },
-  { key: "css3", name: "CSS3", type: "devicon" },
-  { key: "sass", name: "SASS", type: "devicon" },
-  { key: "git", name: "Git", type: "devicon" },
-  { key: "mysql", name: "MySQL", type: "devicon" },
-  { key: "mongodb", name: "MongoDB", type: "devicon" },
-];
+  { key: 'javascript', name: 'JavaScript', type: 'devicon' },
+  { key: 'nodejs', name: 'NodeJS', type: 'devicon' },
+  { key: 'react', name: 'React', type: 'devicon' },
+  { key: 'nextjs', name: 'NextJS', type: 'devicon' },
+  { key: 'php', name: 'PHP', type: 'devicon' },
+  { key: 'wordpress', name: 'WordPress', type: 'devicon' },
+  { key: 'woocommerce', name: 'WooCommerce', type: 'devicon' },
+  { key: 'html5', name: 'HTML5', type: 'devicon' },
+  { key: 'css3', name: 'CSS3', type: 'devicon' },
+  { key: 'sass', name: 'SASS', type: 'devicon' },
+  { key: 'git', name: 'Git', type: 'devicon' },
+  { key: 'mysql', name: 'MySQL', type: 'devicon' },
+  { key: 'mongodb', name: 'MongoDB', type: 'devicon' }
+]
 
 const stack = [
-  { key: "javascript", name: "JavaScript", type: "devicon" },
-  { key: "nodejs", name: "NodeJS", type: "devicon" },
-  { key: "react", name: "React", type: "devicon" },
-  { key: "nextjs", name: "NextJS", type: "devicon" },
-  { key: "php", name: "PHP", type: "devicon" },
-  { key: "wordpress", name: "WordPress", type: "devicon" },
-  { key: "woocommerce", name: "WooCommerce", type: "devicon" },
-  { key: "html5", name: "HTML5", type: "devicon" },
-  { key: "css3", name: "CSS3", type: "devicon" },
-  { key: "sass", name: "SASS", type: "devicon" },
-  { key: "git", name: "Git", type: "devicon" },
-  { key: "mysql", name: "MySQL", type: "devicon" },
-  { key: "mongodb", name: "MongoDB", type: "devicon" },
-];
+  { key: 'javascript', name: 'JavaScript', type: 'devicon' },
+  { key: 'nodejs', name: 'NodeJS', type: 'devicon' },
+  { key: 'react', name: 'React', type: 'devicon' },
+  { key: 'nextjs', name: 'NextJS', type: 'devicon' },
+  { key: 'php', name: 'PHP', type: 'devicon' },
+  { key: 'wordpress', name: 'WordPress', type: 'devicon' },
+  { key: 'woocommerce', name: 'WooCommerce', type: 'devicon' },
+  { key: 'html5', name: 'HTML5', type: 'devicon' },
+  { key: 'css3', name: 'CSS3', type: 'devicon' },
+  { key: 'sass', name: 'SASS', type: 'devicon' },
+  { key: 'git', name: 'Git', type: 'devicon' },
+  { key: 'mysql', name: 'MySQL', type: 'devicon' },
+  { key: 'mongodb', name: 'MongoDB', type: 'devicon' }
+]

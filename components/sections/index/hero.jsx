@@ -1,19 +1,12 @@
-import { useState } from "react";
-import { TypeAnimation } from "react-type-animation";
-
-import Section from "../../structure/section";
-import Container from "../../structure/container";
-
-import space from "../../utils/spacing.util";
-
-import Icon from "../../utils/icon.util";
-
-import HeroBg from "../../blocks/hero.bg/bg-color-1";
-
-import hero from "../../../styles/sections/index/hero.module.scss";
-import button from "../../../styles/blocks/button.module.scss";
-
-import content from "../../../content/index/hero.json";
+import { useState } from 'react'
+import { TypeAnimation } from 'react-type-animation'
+import Section from '../../structure/section'
+import Container from '../../structure/container'
+import space from '../../utils/spacing.util'
+import HeroBg from '../../blocks/hero.bg/bg-color-1'
+import hero from '../../../styles/sections/index/hero.module.scss'
+import button from '../../../styles/blocks/button.module.scss'
+import content from '../../../content/index/hero.json'
 
 /**
  * TO DO LIST
@@ -25,32 +18,32 @@ import content from "../../../content/index/hero.json";
  *   Load this module onto every component, and use predefined spacial classes to keep geometry consistent
  */
 
-export default function Hero() {
-  const [typingStatus, setTypingStatus] = useState("Initializing");
+export default function Hero () {
+  const [typingStatus, setTypingStatus] = useState('Initializing')
 
   return (
     <Section classProp={`${hero.section}`}>
-      <Container spacing={"VerticalXXXL"}>
+      <Container spacing={'VerticalXXXL'}>
         <TypeAnimation
           className={`${hero.preHeader}`}
           sequence={[
             content.intro.startDelay,
             () => {
-              setTypingStatus("typing");
+              setTypingStatus('typing')
             },
             content.intro.start,
             () => {
-              setTypingStatus("typed");
+              setTypingStatus('typed')
             },
             content.intro.deleteDelay,
             () => {
-              setTypingStatus("deleting");
+              setTypingStatus('deleting')
             },
             content.intro.end,
             () => {
-              setTypingStatus("deleted");
+              setTypingStatus('deleted')
             },
-            content.intro.restartDelay,
+            content.intro.restartDelay
           ]}
           speed={content.intro.speed}
           deletionSpeed={content.intro.deletionSpeed}
@@ -66,7 +59,7 @@ export default function Hero() {
         <section>
           <p
             className={`${hero.primaryBright} subtitle ${space([
-              "verticalLrg",
+              'verticalLrg'
             ])}`}
           >
             {content.paragraph}
@@ -75,24 +68,27 @@ export default function Hero() {
         <section>
           <button
             className={`button ${button.primary}`}
-            onClick={() => (window.location = "mailto:siddeshbagare@gmail.com")}
+            onClick={
+              content.buttons.primary.url
+                ? () => window.open(content.buttons.primary.url, '_blank')
+                : null
+            }
           >
             {content.buttons.primary.title}
           </button>
           <button
             className={`button ${button.secondary} leaveSite`}
-            onClick={() =>
-              window.open(
-                "https://www.linkedin.com/in/siddesh-bagare-57466419a/",
-                "_blank"
-              )
+            onClick={
+              content.buttons.secondary.url
+                ? () => window.open(content.buttons.secondary.url, '_blank')
+                : null
             }
           >
             {content.buttons.secondary.title}
           </button>
         </section>
       </Container>
-      <HeroBg theme="bg-color-1" />
+      <HeroBg theme='bg-color-1' />
     </Section>
-  );
+  )
 }
