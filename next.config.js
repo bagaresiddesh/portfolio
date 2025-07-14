@@ -3,5 +3,4 @@ module.exports = {
   env: {
     dir: "/",
   },
-  allowedDevOrigins: ["localhost"],
 };
