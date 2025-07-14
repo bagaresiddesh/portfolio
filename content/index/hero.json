@@ -9,20 +9,23 @@
     "deleteDelay": 3000,
     "restartDelay": 12000
   },
+
   "header": {
     "name": "Siddesh Bagare",
     "usp": "Driven by logic, powered by curiosity, and fueled by creativity."
   },
+
   "paragraph": "Software Engineer focused on building thoughtful and impactful digital experiences.",
+
   "buttons": {
     "primary": {
       "title": "Contact Me",
-      "url": "mailto:siddeshbagare@gmail.com",
+      "url": "",
       "leaveSite": true
     },
     "secondary": {
       "title": "LinkedIn",
-      "url": "https://www.linkedin.com/in/siddesh-bagare-57466419a/",
+      "url": "",
       "leaveSite": "true"
     }
   }
