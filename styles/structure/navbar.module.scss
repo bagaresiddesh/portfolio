@@ -187,9 +187,6 @@
     .menuHeader {
       width: 100%;
     }
-    .menu {
-      flex-direction: column;
-    }
     .menuContent {
       transition: transform, cubic-bezier(0.4, 0, 0.2, 1), 300ms;
       max-height: 0vh;

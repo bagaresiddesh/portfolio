@@ -9,7 +9,6 @@ export default function Footer () {
       <Container spacing={['verticalXXLrg', 'bottomLrg']}>
         <section className={css.sections}>
           <div className={css.social}>
-            <h4>Social</h4>
             <div className={css.socialList}>
               {content.social.map(({ url, icon }, index) => {
                 return (

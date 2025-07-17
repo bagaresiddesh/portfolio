@@ -58,7 +58,7 @@ export default function Technical () {
               src='/img/dataism-24.svg'
               width={477}
               height={1111}
-              alt='Data Strings 01 by Colorpong: https://ywft.us/2177b695b'
+              alt='Data Strings graphical representation'
             />
           </div>
         </section>

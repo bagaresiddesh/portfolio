@@ -72,6 +72,7 @@
       flex-grow: 1;
       flex-shrink: 1;
       position: relative;
+      display: flex;
 
       img {
         height: 100%;
@@ -111,7 +112,6 @@
       }
 
       .image {
-        padding: 1rem;
         &.technicalSvg {
           position: absolute;
           top: 50%;
