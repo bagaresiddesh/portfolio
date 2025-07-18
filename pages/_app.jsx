@@ -37,7 +37,6 @@ export default function MyApp ({ Component, pageProps }) {
       <LazyMotion features={domAnimation}>
         <Layout>
           <Component {...pageProps} />
-          <SetGridGap />
         </Layout>
       </LazyMotion>
     </>
