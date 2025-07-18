@@ -9,9 +9,10 @@
   width: 100%;
   max-width: var(--reading-width);
   margin-inline: auto;
-  margin-block: 3rem;
+  margin-block: 5rem;
   display: flex;
   flex-direction: column;
+  padding-inline: 2rem;
 }
 
 @include media($max: $mobile) {
@@ -19,5 +20,7 @@
     width: calc(100% - 2rem);
     margin-left: 1rem;
     margin-right: 1rem;
+    margin-block: 3rem;
+    padding-inline: 0;
   }
 }
