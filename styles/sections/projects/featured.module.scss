@@ -121,7 +121,6 @@
   position: relative;
   display: block;
   width: 50%;
-  border-radius: 1rem;
   flex-grow: 1;
   flex-shrink: 0;
   display: flex;
@@ -133,18 +132,19 @@
     margin-left: auto;
     margin-block: auto;
 
+    img {
+      align-self: center;
+      object-fit: cover;
+      width: 100%;
+      height: auto;
+      border-radius: 0;
+    }
+
     > div > div {
       justify-content: center;
       display: flex;
       > span {
         right: 3rem;
-
-        img {
-          align-self: center;
-          object-fit: cover;
-          width: 100%;
-          height: auto;
-        }
       }
     }
   }
@@ -300,6 +300,7 @@
         width: auto;
         padding: 0;
         padding-bottom: 2rem;
+        padding-inline: 2rem;
         div {
           display: flex;
           justify-content: center;
