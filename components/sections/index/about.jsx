@@ -36,7 +36,7 @@ export default function About () {
               containerClass={about.container}
               iconClass={about.icon}
               icon={['fat', 'code']}
-              copy="Around 4 years of experience building enterprise-grade web applications at IncubXperts, I've evolved from intern to core contributor across diverse projects. I specialize in crafting clean UIs and scalable backends. I excel in Agile environments, and my logical thinking, strong communication, and deep technical understanding allow me to collaborate cross-functionally and drive projects from concept to deployment."
+              copy="Around 4 years at IncubXperts, I've grown from an intern to a trusted full-stack engineer delivering enterprise-grade web applications. I specialize in building intuitive front-ends and scalable back-end architectures. Agile by practice and logical by nature, I bring clear communication and cross-functional collaboration to every project, seeing ideas through from concept to deployment."
             />
             <CopyBlock
               title='Beyond the Code'
@@ -44,7 +44,7 @@ export default function About () {
               block='methods'
               iconClass={about.icon}
               icon={['fat', 'seedling']}
-              copy="Away from the screen, I'm a self-taught charcoal sketch artist, specializing in detailed portraits. I was born and raised in Pune, I enjoy gardening and spending quality time with friends and family. I occasionally help my mumma in the kitchen, and yes, I cook some delicious food that I absolutely love eating. Rooted in a Marathi, middle-class background, I value peace, purpose, and meaningful relationships. I blend logic with creativity and carry a quiet belief in karma and spiritual growth."
+              copy='Born and raised in Pune, I carry the grounded values of a Marathi middle-class home. Away from the screen, I’m a self-taught charcoal sketch artist with a passion for portraits. I enjoy gardening, spending time with friends and family, and helping my mumma in the kitchen, especially when it involves cooking something I love. I believe in peace, purpose, karma, and the quiet strength of creativity.'
             />
           </div>
         </section>

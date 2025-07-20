@@ -40,51 +40,30 @@ export default function Career () {
             </div>
             <div className={career.companyContent}>
               <span className={career.companyHeader}>
-                <h3>Software Engineer (Feb 2022 – Present)</h3>
+                <h3>Software Engineer (Feb 2022 - Present)</h3>
               </span>
-              <ul>
-                <li>
-                  Developed enterprise-grade web applications using Agile
-                  methodologies, addressing diverse business needs.
-                </li>
-                <li>
-                  Enhanced user engagement by crafting responsive user
-                  interfaces, leading to a 20% increase in user satisfaction
-                  metrics.
-                </li>
-                <li>
-                  Designed and integrated scalable APIs using Node.js and
-                  Sequelize ORM, reducing API response times by 25%.
-                </li>
-                <li>
-                  Conducted thorough testing, debugging, and optimization,
-                  delivering high-performance, bug-free applications.
-                </li>
-                <li>
-                  Collaborated with cross-functional teams to analyze
-                  requirements, define project scope, and ensure alignment with
-                  business objectives.
-                </li>
-              </ul>
+              <span>
+                Developed robust, enterprise-grade web applications tailored to
+                real-world business needs. Crafted responsive user interfaces
+                and built scalable backend, improving performance and user
+                engagement. Collaborated with cross-functional teams,
+                communicated with stakeholders to gather requirements, and
+                ensured alignment with business goals. Maintained clear
+                documentation for workflows and processes, participated in Agile
+                ceremonies, and consistently delivered high-quality, optimized
+                code.
+              </span>
             </div>
             <div className={career.companyContent}>
               <span className={career.companyHeader}>
-                <h3>Trainee Software Engineer (Nov 2021 – Jan 2022)</h3>
+                <h3>Trainee Software Engineer (Nov 2021 - Jan 2022)</h3>
               </span>
-              <ul>
-                <li>
-                  Built IX-Timesheet, a web application with feature-rich
-                  functionality, as part of a comprehensive training program.
-                </li>
-                <li>
-                  Acquired proficiency in modern web development tools,
-                  frameworks, and best practices.
-                </li>
-                <li>
-                  Focused on delivering quality solutions through rigorous
-                  testing and clear documentation.
-                </li>
-              </ul>
+              <span>
+                Trained in the full software development life cycle and Agile
+                methodologies. Gained hands-on experience with modern tools and
+                frameworks, focusing on writing clean code, conducting effective
+                testing, and maintaining clear documentation.
+              </span>
             </div>
           </article>
         </section>

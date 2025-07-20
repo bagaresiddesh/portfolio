@@ -68,8 +68,6 @@ export default function Technical () {
 }
 
 const software = [
-  { key: 'jira', name: 'Jira', type: 'devicon' },
-  { key: 'confluence', name: 'confluence', type: 'devicon' },
   { key: 'vscode', name: 'VSCode', type: 'devicon' },
   { key: 'postman', name: 'Postman', type: 'devicon' },
   { key: 'swagger', name: 'Swagger', type: 'devicon' },
@@ -78,30 +76,29 @@ const software = [
   { key: 'github', name: 'Github', type: 'devicon' },
   { key: 'gitlab', name: 'Gitlab', type: 'devicon' },
   { key: 'bitbucket', name: 'bitbucket', type: 'devicon' },
+  { key: 'jira', name: 'Jira', type: 'devicon' },
+  { key: 'confluence', name: 'confluence', type: 'devicon' },
+  { key: 'slack', name: 'Slack', type: 'devicon' },
   { key: 'amazonwebservices', name: 'AWS', type: 'devicon' },
   { key: 'docker', name: 'Docker', type: 'devicon' },
-  { key: 'azure', name: 'Azure', type: 'devicon' },
-  { key: 'slack', name: 'Slack', type: 'devicon' },
   { key: 'dbeaver', name: 'DBeaver', type: 'devicon' }
 ]
 
 const tech = [
   { key: 'react', name: 'React', type: 'devicon' },
-  { key: 'nodejs', name: 'NodeJS', type: 'devicon' },
   { key: 'nextjs', name: 'NextJS', type: 'devicon' },
+  { key: 'nodejs', name: 'NodeJS', type: 'devicon' },
   { key: 'typescript', name: 'TypeScript', type: 'devicon' },
   { key: 'javascript', name: 'JavaScript', type: 'devicon' },
-  { key: 'antdesign', name: 'Ant Design', type: 'devicon' },
-  { key: 'materialui', name: 'Material UI', type: 'devicon' },
-  { key: 'bootstrap', name: 'Bootstrap', type: 'devicon' },
-  { key: 'reactBootstrap', name: 'React Bootstrap', type: 'devicon' },
+  { key: 'sequelize', name: 'Sequelize', type: 'devicon' },
+  { key: 'axios', name: 'Axios', type: 'devicon' },
+  { key: 'json', name: 'JSON', type: 'devicon' },
   { key: 'html5', name: 'HTML5', type: 'devicon' },
   { key: 'css3', name: 'CSS3', type: 'devicon' },
   { key: 'sass', name: 'SASS', type: 'devicon' },
+  { key: 'antdesign', name: 'Ant Design', type: 'devicon' },
+  { key: 'materialui', name: 'Material UI', type: 'devicon' },
+  { key: 'bootstrap', name: 'Bootstrap', type: 'devicon' },
   { key: 'mysql', name: 'MySQL', type: 'devicon' },
   { key: 'dynamodb', name: 'dynamodb', type: 'devicon' },
-  { key: 'axios', name: 'Axios', type: 'devicon' },
-  { key: 'json', name: 'JSON', type: 'devicon' },
-  { key: 'sequelize', name: 'Sequelize', type: 'devicon' },
-  { key: 'vite', name: 'Vite', type: 'devicon' }
 ]

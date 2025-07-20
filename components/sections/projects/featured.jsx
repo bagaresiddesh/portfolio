@@ -11,7 +11,7 @@ export default function FeaturedProjects () {
     <Section classProp={css.hasBg}>
       <Container spacing={'verticalXXXXLrg'}>
         <SectionTitle
-          title='The Art'
+          title='The Charcoal Corner'
           preTitle='My Creative Space'
           subTitle='Beyond logic and code, there lies Art'
         />

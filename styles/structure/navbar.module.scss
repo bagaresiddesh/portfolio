@@ -7,6 +7,7 @@
   margin-right: calc(50% - 50vw);
   width: 100%;
   max-width: 90vw;
+  justify-self: center;
 
   &:not(.hidden) {
     transition: transform, cubic-bezier(0.4, 0, 0.2, 1), 300ms;
