@@ -30,11 +30,11 @@ export default function Career () {
               <Icon icon={['fat', 'briefcase']} />
             </span>
             <div className={career.companyHeader}>
-              <h3 className={career.companyName}>
+              <h4 className={career.companyName}>
                 <Link href={'https://incubxperts.com/'} target='_blank'>
                   Incubxperts TechnoConsulting Pvt Ltd
                 </Link>
-              </h3>
+              </h4>
               <h4>Nov 2021 – Present</h4>
               <h5>Pune, India</h5>
             </div>
