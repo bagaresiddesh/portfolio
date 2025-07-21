@@ -65,53 +65,81 @@
     }
   }
 
-  .socialList {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    justify-content: space-around;
-
-    svg {
-      height: 2rem;
-    }
-  }
-  .svg-inline--fa.fa-code-branch {
-    margin-left: 1rem;
-
-    .fa-secondary {
-      fill: #a371f7;
-      opacity: 1;
-    }
-  }
-
-  .github {
-    * {
-      font-size: 1rem;
-      font-family: var(--font-accent);
-      font-weight: 600;
-      letter-spacing: -0.01rem;
-    }
-
-    > a {
+  .social {
+    .socialList {
       display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: fit-content;
-      margin: 0 auto;
-      gap: var(--size-2-);
-      filter: grayscale(1);
+      flex-direction: row;
+      gap: 1rem;
+      justify-content: space-around;
 
-      &:hover {
-        filter: grayscale(0);
+      svg {
+        height: 2rem;
+      }
+    }
+
+    .svg-inline--fa.fa-code-branch {
+      margin-left: 1rem;
+
+      .fa-secondary {
+        fill: #a371f7;
+        opacity: 1;
+      }
+    }
+
+    .github {
+      * {
+        font-size: 1rem;
+        font-family: var(--font-accent);
+        font-weight: 600;
+        letter-spacing: -0.01rem;
       }
 
-      ul {
+      > a {
         display: flex;
-        flex-direction: row;
-        gap: 1rem;
+        flex-direction: column;
+        align-items: center;
+        width: fit-content;
+        margin: 0 auto;
+        gap: var(--size-2-);
+        filter: grayscale(1);
+
+        &:hover {
+          filter: grayscale(0);
+        }
+
+        ul {
+          display: flex;
+          flex-direction: row;
+          gap: 1rem;
+        }
       }
     }
   }
+}
+
+.radialGradient {
+  --hero-gradient-bg-1: var(--neon-1-1);
+  --hero-gradient-bg-2: var(--neon-1-2);
+  --hero-gradient-bg-3: var(--neon-2-1);
+  --hero-gradient-bg-4: var(--neon-2-2);
+
+  position: absolute;
+  width: 100%;
+  aspect-ratio: 1/1;
+  height: 100%;
+  filter: blur(100px);
+  transform: translateZ(0);
+  opacity: 30%;
+  background: var(--bar-gradient);
+  z-index: -1;
+  --bar-gradient: radial-gradient(
+    circle,
+    var(--hero-gradient-bg-1) 0%,
+    var(--hero-gradient-bg-2) 24%,
+    var(--hero-gradient-bg-3) 44%,
+    var(--hero-gradient-bg-4) 57%,
+    transparent 70%
+  );
 }
 
 @include media($max: $mobile) {

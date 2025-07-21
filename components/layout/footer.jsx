@@ -23,7 +23,8 @@ export default function Footer () {
           <div>© Siddesh Bagare. All rights reserved.</div>
         </section>
       </Container>
-      <canvas id='gradient-canvas' className={''} data-transition-in></canvas>
+      <div className={css.radialGradient}></div>
+      {/* <canvas id='gradient-canvas' className={''} data-transition-in></canvas> */}
     </footer>
   )
 }
