@@ -4,7 +4,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "jest --watch"
+    "test": "jest --watch",
+    "export": "next export"
   },
   "dependencies": {
     "@fontsource/fira-code": "^4.5.12",
