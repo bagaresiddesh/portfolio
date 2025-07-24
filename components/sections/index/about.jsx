@@ -27,7 +27,10 @@ export default function About () {
         />
         <section className={about.content}>
           <div className={about.image}>
-            <img src='/img/profile.jpg' alt='Profile picture' />
+            <img
+              src='https://siddesh-bagare-portfolio.s3.ap-south-1.amazonaws.com/root/profile/SiddeshBagare.webp'
+              alt='Siddesh Bagare Profile Picture'
+            />
             {/* <Image src="/img/family-photo.jpg" width={600} height={800}/> */}
           </div>
           <div className={about.copy}>

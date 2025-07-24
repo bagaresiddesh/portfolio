@@ -11,28 +11,98 @@
         "hover": "right",
         "h": "440",
         "w": "300",
-        "url": "/img/sketch1.jpg"
+        "url": "https://siddesh-bagare-portfolio.s3.ap-south-1.amazonaws.com/root/sketches/AmitThackeray.webp"
       },
       {
         "key": "mock-stack",
         "hover": "right",
         "h": "440",
         "w": "300",
-        "url": "/img/sketch2.jpg"
+        "url": "https://siddesh-bagare-portfolio.s3.ap-south-1.amazonaws.com/root/sketches/BalasahebThackeray.webp"
       },
       {
         "key": "mock-stack",
         "hover": "right",
         "h": "440",
         "w": "300",
-        "url": "/img/sketch3.jpg"
+        "url": "https://siddesh-bagare-portfolio.s3.ap-south-1.amazonaws.com/root/sketches/BobbyDeol.webp"
       },
       {
         "key": "mock-stack",
         "hover": "right",
         "h": "440",
         "w": "300",
-        "url": "/img/sketch4.jpg"
+        "url": "https://siddesh-bagare-portfolio.s3.ap-south-1.amazonaws.com/root/sketches/ChhatrapatiShivajiMaharaj.webp"
+      },
+      {
+        "key": "mock-stack",
+        "hover": "right",
+        "h": "440",
+        "w": "300",
+        "url": "https://siddesh-bagare-portfolio.s3.ap-south-1.amazonaws.com/root/sketches/Horse.webp"
+      },
+      {
+        "key": "mock-stack",
+        "hover": "right",
+        "h": "440",
+        "w": "300",
+        "url": "https://siddesh-bagare-portfolio.s3.ap-south-1.amazonaws.com/root/sketches/HritikhRoshan.webp"
+      },
+      {
+        "key": "mock-stack",
+        "hover": "right",
+        "h": "440",
+        "w": "300",
+        "url": "https://siddesh-bagare-portfolio.s3.ap-south-1.amazonaws.com/root/sketches/MaheshManjrekar.webp"
+      },
+      {
+        "key": "mock-stack",
+        "hover": "right",
+        "h": "440",
+        "w": "300",
+        "url": "https://siddesh-bagare-portfolio.s3.ap-south-1.amazonaws.com/root/sketches/Mastani.webp"
+      },
+      {
+        "key": "mock-stack",
+        "hover": "right",
+        "h": "440",
+        "w": "300",
+        "url": "https://siddesh-bagare-portfolio.s3.ap-south-1.amazonaws.com/root/sketches/MrBean.webp"
+      },
+      {
+        "key": "mock-stack",
+        "hover": "right",
+        "h": "440",
+        "w": "300",
+        "url": "https://siddesh-bagare-portfolio.s3.ap-south-1.amazonaws.com/root/sketches/NawazuddinSiddiqui.webp"
+      },
+      {
+        "key": "mock-stack",
+        "hover": "right",
+        "h": "440",
+        "w": "300",
+        "url": "https://siddesh-bagare-portfolio.s3.ap-south-1.amazonaws.com/root/sketches/RanveerSingh.webp"
+      },
+      {
+        "key": "mock-stack",
+        "hover": "right",
+        "h": "440",
+        "w": "300",
+        "url": "https://siddesh-bagare-portfolio.s3.ap-south-1.amazonaws.com/root/sketches/SayaliSanjeev.webp"
+      },
+      {
+        "key": "mock-stack",
+        "hover": "right",
+        "h": "440",
+        "w": "300",
+        "url": "https://siddesh-bagare-portfolio.s3.ap-south-1.amazonaws.com/root/sketches/SushantSinghRajput.webp"
+      },
+      {
+        "key": "mock-stack",
+        "hover": "right",
+        "h": "440",
+        "w": "300",
+        "url": "https://siddesh-bagare-portfolio.s3.ap-south-1.amazonaws.com/root/sketches/Tiger.webp"
       }
     ]
   }
