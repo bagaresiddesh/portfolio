@@ -20,7 +20,7 @@ export default function Footer () {
               })}
             </div>
           </div>
-          <div>© Siddesh Bagare. All rights reserved.</div>
+          <div>Copyright © 2025 Siddesh Bagare - All Rights Reserved.</div>
         </section>
       </Container>
       <div className={css.radialGradient}></div>
