@@ -34,7 +34,16 @@ export default function Document () {
           color='#5bbad5'
         />
         <meta name='msapplication-TileColor' content='#da532c' />
-        <meta name='theme-color' content='#ffffff' />
+        <meta name='theme-color' content='#ffffff' />;
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function (c, l, a, r, i, t, y){
+                        c[a]=c[a]||function () {(c[a].q = c[a].q || []).push(arguments);
+                        t = l.createElement(r);t.async = 1;t.src = 'https://www.clarity.ms/tag/' + i;
+                        y = l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t, y);
+                        })(window, document, "clarity", "script", "sksv2795f1");`
+          }}
+        ></script>
       </Head>
       <body>
         <Main />
