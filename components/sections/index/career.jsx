@@ -35,18 +35,32 @@ export default function Career () {
                   Incubxperts TechnoConsulting Pvt Ltd
                 </Link>
               </h4>
-              <h4>Nov 2021 – Present</h4>
+              <h4>Nov 2021 - Present</h4>
               <h5>Pune, India</h5>
             </div>
             <div className={career.companyContent}>
               <span className={career.companyHeader}>
-                <h3>Software Engineer (Feb 2022 - Present)</h3>
+                <h3>Senior Software Engineer (Aug 2025 - Present)</h3>
+              </span>
+              <span>
+                Lead the design and development of scalable, secure, and
+                high-performance applications. Mentor junior engineers, review
+                code for quality and maintainability, and guide architectural
+                decisions. Collaborate closely with stakeholders to define
+                technical strategies aligned with business objectives. Drive
+                optimization efforts across the stack to improve performance,
+                reliability, and cost efficiency.
+              </span>
+            </div>
+            <div className={career.companyContent}>
+              <span className={career.companyHeader}>
+                <h3>Software Engineer (Feb 2022 - Jul 2025)</h3>
               </span>
               <span>
                 Developed robust, enterprise-grade web applications tailored to
                 real-world business needs. Crafted responsive user interfaces
-                and built scalable backend, improving performance and user
-                engagement. Collaborated with cross-functional teams,
+                and built scalable backend systems, improving performance and
+                user engagement. Collaborated with cross-functional teams,
                 communicated with stakeholders to gather requirements, and
                 ensured alignment with business goals. Maintained clear
                 documentation for workflows and processes, participated in Agile
