@@ -40,7 +40,8 @@ export default function Career () {
             </div>
             <div className={career.companyContent}>
               <span className={career.companyHeader}>
-                <h3>Senior Software Engineer (Aug 2025 - Present)</h3>
+                <h3>Senior Software Engineer </h3>
+                <h5>Aug 2025 - Present</h5>
               </span>
               <span>
                 Lead the design and development of scalable, secure, and
@@ -54,7 +55,8 @@ export default function Career () {
             </div>
             <div className={career.companyContent}>
               <span className={career.companyHeader}>
-                <h3>Software Engineer (Feb 2022 - Jul 2025)</h3>
+                <h3>Software Engineer</h3>
+                <h5>Feb 2022 - Jul 2025</h5>
               </span>
               <span>
                 Developed robust, enterprise-grade web applications tailored to
@@ -70,7 +72,8 @@ export default function Career () {
             </div>
             <div className={career.companyContent}>
               <span className={career.companyHeader}>
-                <h3>Trainee Software Engineer (Nov 2021 - Jan 2022)</h3>
+                <h3>Trainee Software Engineer </h3>
+                <h5>Nov 2021 - Jan 2022</h5>
               </span>
               <span>
                 Trained in the full software development life cycle and Agile
