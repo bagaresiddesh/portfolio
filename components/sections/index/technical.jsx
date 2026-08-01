@@ -63,8 +63,8 @@ export default function Technical () {
               headerIcon={about.icon}
             />
             <BadgesBlock
-              title='AI, Integrations & Certifications'
-              copy='Exploring the AI landscape with RAG pipelines, LLM agents, and third-party integrations - backed by industry certifications.'
+              title='AI & Integrations'
+              copy='Exploring the AI landscape with RAG pipelines, LLM agents, and third-party integrations.'
               list={aiAndIntegrations}
               block='tech'
               fullContainer='fullContainer'
@@ -149,7 +149,7 @@ const aws = [
 const aiAndIntegrations = [
   { key: 'langchain', name: 'LangChain', type: 'si' },
   { key: 'streamlit', name: 'Streamlit', type: 'si' },
-  { key: 'openai-icon', name: 'OpenAI', type: 'logos' },
+  { key: 'openai', name: 'OpenAI', type: 'si' },
   { key: 'claudecode', name: 'Claude Code', type: 'si' },
   { key: 'githubcopilot', name: 'GitHub Copilot', type: 'si' },
   { key: 'stability-ai-icon', name: 'Stability AI', type: 'logos' },
@@ -157,6 +157,5 @@ const aiAndIntegrations = [
   { key: 'stripe', name: 'Stripe API', type: 'si' },
   { key: 'zapier', name: 'Zapier', type: 'si' },
   { key: 'recaptcha', name: 'reCAPTCHA', type: 'logos' },
-  { key: 'zoho', name: 'Zoho Campaigns', type: 'si' },
-  { key: 'microsoft-azure', name: 'AZ-900 Azure', type: 'logos' }
+  { key: 'zoho', name: 'Zoho Campaigns', type: 'si' }
 ]

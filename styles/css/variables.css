@@ -72,6 +72,7 @@
   --neon-2-1: #37eaf7;
   --neon-2-2: #c624ee;
   --icon-bright: #ffffff;
+  --badge-icon-filter: brightness(0) invert(1);
   --brightness-low: 100%;
   --brightness-high: 100%;
   --mesh-color-1: #0e0f10;
@@ -99,6 +100,7 @@
   --neon-2-2: #c624ee;
 
   --icon-bright: var(--neon-1-1);
+  --badge-icon-filter: brightness(0);
 
   --mesh-color-1: #a8cff5;
   --mesh-color-2: #abbaf5;

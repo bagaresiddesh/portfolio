@@ -44,6 +44,10 @@ $background: --background-dim2;
       margin-right: 0.7rem;
     }
 
+    img {
+      filter: var(--badge-icon-filter, none);
+    }
+
     i {
       &:not(.colored) {
         color: var(--icon-bright);
