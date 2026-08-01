@@ -45,12 +45,9 @@ export default function Career () {
               </span>
               <span>
                 Lead the design and development of scalable, secure, and
-                high-performance applications. Mentor junior engineers, review
-                code for quality and maintainability, and guide architectural
-                decisions. Collaborate closely with stakeholders to define
-                technical strategies aligned with business objectives. Drive
-                optimization efforts across the stack to improve performance,
-                reliability, and cost efficiency.
+                high-performance applications. Mentor junior engineers, guide
+                architectural decisions, and collaborate with stakeholders to
+                define technical strategies aligned with business objectives.
               </span>
             </div>
             <div className={career.companyContent}>
@@ -59,15 +56,10 @@ export default function Career () {
                 <h5>Feb 2022 - Jul 2025</h5>
               </span>
               <span>
-                Developed robust, enterprise-grade web applications tailored to
-                real-world business needs. Crafted responsive user interfaces
-                and built scalable backend systems, improving performance and
-                user engagement. Collaborated with cross-functional teams,
-                communicated with stakeholders to gather requirements, and
-                ensured alignment with business goals. Maintained clear
-                documentation for workflows and processes, participated in Agile
-                ceremonies, and consistently delivered high-quality, optimized
-                code.
+                Developed enterprise-grade web applications with responsive
+                front-ends and scalable backend systems. Collaborated with
+                cross-functional teams, and consistently delivered high-quality
+                code following Agile practices.
               </span>
             </div>
             <div className={career.companyContent}>
@@ -77,7 +69,7 @@ export default function Career () {
               </span>
               <span>
                 Trained in the full software development life cycle and Agile
-                methodologies. Gained hands-on experience with modern tools and
+                methodologies. Gained hands-on experience with tools and
                 frameworks, focusing on writing clean code, conducting effective
                 testing, and maintaining clear documentation.
               </span>
@@ -91,32 +83,36 @@ export default function Career () {
 
 const fullStack = [
   { key: 'javascript', name: 'JavaScript', type: 'devicon' },
-  { key: 'nodejs', name: 'NodeJS', type: 'devicon' },
+  { key: 'typescript', name: 'TypeScript', type: 'devicon' },
+  { key: 'nodejs', name: 'Node.js', type: 'devicon' },
   { key: 'react', name: 'React', type: 'devicon' },
-  { key: 'nextjs', name: 'NextJS', type: 'devicon' },
-  { key: 'php', name: 'PHP', type: 'devicon' },
-  { key: 'wordpress', name: 'WordPress', type: 'devicon' },
-  { key: 'woocommerce', name: 'WooCommerce', type: 'devicon' },
+  { key: 'nextjs', name: 'Next.js', type: 'devicon' },
+  { key: 'python', name: 'Python', type: 'devicon' },
+  { key: 'csharp', name: 'C#', type: 'devicon' },
   { key: 'html5', name: 'HTML5', type: 'devicon' },
   { key: 'css3', name: 'CSS3', type: 'devicon' },
   { key: 'sass', name: 'SASS', type: 'devicon' },
   { key: 'git', name: 'Git', type: 'devicon' },
+  { key: 'postgresql', name: 'PostgreSQL', type: 'devicon' },
   { key: 'mysql', name: 'MySQL', type: 'devicon' },
-  { key: 'mongodb', name: 'MongoDB', type: 'devicon' }
+  { key: 'dynamodb', name: 'DynamoDB', type: 'devicon' },
+  { key: 'amazonwebservices', name: 'AWS', type: 'devicon' }
 ]
 
 const stack = [
   { key: 'javascript', name: 'JavaScript', type: 'devicon' },
-  { key: 'nodejs', name: 'NodeJS', type: 'devicon' },
+  { key: 'typescript', name: 'TypeScript', type: 'devicon' },
+  { key: 'nodejs', name: 'Node.js', type: 'devicon' },
   { key: 'react', name: 'React', type: 'devicon' },
-  { key: 'nextjs', name: 'NextJS', type: 'devicon' },
-  { key: 'php', name: 'PHP', type: 'devicon' },
-  { key: 'wordpress', name: 'WordPress', type: 'devicon' },
-  { key: 'woocommerce', name: 'WooCommerce', type: 'devicon' },
+  { key: 'nextjs', name: 'Next.js', type: 'devicon' },
+  { key: 'python', name: 'Python', type: 'devicon' },
+  { key: 'csharp', name: 'C#', type: 'devicon' },
   { key: 'html5', name: 'HTML5', type: 'devicon' },
   { key: 'css3', name: 'CSS3', type: 'devicon' },
   { key: 'sass', name: 'SASS', type: 'devicon' },
   { key: 'git', name: 'Git', type: 'devicon' },
+  { key: 'postgresql', name: 'PostgreSQL', type: 'devicon' },
   { key: 'mysql', name: 'MySQL', type: 'devicon' },
-  { key: 'mongodb', name: 'MongoDB', type: 'devicon' }
+  { key: 'dynamodb', name: 'DynamoDB', type: 'devicon' },
+  { key: 'amazonwebservices', name: 'AWS', type: 'devicon' }
 ]

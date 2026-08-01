@@ -39,7 +39,7 @@ export default function About () {
               containerClass={about.container}
               iconClass={about.icon}
               icon={['fat', 'code']}
-              copy="Around 4 years at IncubXperts, I've grown from an intern to a trusted full-stack engineer delivering enterprise-grade web applications. I specialize in building intuitive front-ends and scalable back-end architectures. Agile by practice and logical by nature, I bring clear communication and cross-functional collaboration to every project, seeing ideas through from concept to deployment."
+              copy="Around 5 years at IncubXperts, I've grown from a trainee to a Senior Software Engineer delivering enterprise-grade web applications. I specialize in building intuitive front-ends and scalable back-end architectures, with deep hands-on experience across the AWS cloud ecosystem. Agile by practice and logical by nature, I bring clear communication and cross-functional collaboration to every project."
             />
             <CopyBlock
               title='Beyond the Code'

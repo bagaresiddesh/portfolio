@@ -1,21 +1,35 @@
 <div align="center">
-  <h1>siddesh bagare | portfolio</h1>
+  <h1>Siddesh Bagare | Portfolio</h1>
+  <p>Personal portfolio built with Next.js, React, Framer Motion, and SCSS</p>
 </div>
 
-#### Dev Update — May 24th, 2025 
+### Tech Stack
 
-I have started working on building my portfolio
+- **Framework:** Next.js 15, React 18
+- **Styling:** SCSS Modules, CSS Variables, Devicon
+- **Animation:** Framer Motion
+- **Icons:** Font Awesome Pro, Devicon
+- **Deployment:** Vercel
 
-#### Next & App Architecure
+### Getting Started
 
-- [ ] Next.js v13 
-- [ ] Sanity.io
+```bash
+npm install
+npm run dev
+```
 
-#### App Architecure & Design Systems
+### Project Structure
 
-- [ ] App\Systems\Margins : Continuing to develop Design Token System
-- [ ] App\Systems\Padding : Continuing to develop Design Token System
+- `pages/` — Next.js routes (Home, Projects, Case Studies)
+- `components/` — Reusable UI blocks, sections, layout, and utilities
+- `content/` — JSON-driven content for each section
+- `styles/` — SCSS modules and global styles
+- `public/` — Static assets (fonts, images, favicon)
 
-#### Projects Page
+### Sections
 
-- [ ] Pages\Projects\Project : Single project details page
+- **Hero** — Animated intro with typewriter effect
+- **About** — Professional background and personal interests
+- **Career** — Employment timeline at IncubXperts
+- **Technical** — Skills across tools, frameworks, AWS, and AI
+- **Charcoal Corner** — Showcase of charcoal portrait artwork
