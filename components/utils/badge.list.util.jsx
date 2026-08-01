@@ -98,7 +98,7 @@ function IconModule ({ iconKey, iconType, color }) {
     case 'si':
       return (
         <img
-          src={`https://cdn.simpleicons.org/${iconKey}`}
+          src={`https://api.iconify.design/simple-icons/${iconKey}.svg`}
           alt=''
           width={16}
           height={16}

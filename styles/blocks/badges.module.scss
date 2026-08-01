@@ -36,7 +36,8 @@ $background: --background-dim2;
     color: var(--primary-dim);
 
     i,
-    svg {
+    svg,
+    img {
       display: flex;
       justify-content: center;
       align-items: center;
