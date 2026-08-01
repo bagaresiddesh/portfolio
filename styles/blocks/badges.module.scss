@@ -45,7 +45,9 @@ $background: --background-dim2;
     }
 
     img {
-      filter: var(--badge-icon-filter, none);
+      &:global(.mono) {
+        filter: var(--badge-icon-filter, none);
+      }
     }
 
     i {

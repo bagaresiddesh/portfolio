@@ -98,6 +98,7 @@ function IconModule ({ iconKey, iconType, color }) {
     case 'si':
       return (
         <img
+          className='mono'
           src={`https://api.iconify.design/simple-icons/${iconKey}.svg`}
           alt=''
           width={16}
