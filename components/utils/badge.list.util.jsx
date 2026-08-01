@@ -95,6 +95,24 @@ function IconModule ({ iconKey, iconType, color }) {
       return <Icon icon={[iconType, iconKey]} />
     case 'devicon':
       return <i className={`devicon-${iconKey}-plain ${colored}`} />
+    case 'si':
+      return (
+        <img
+          src={`https://cdn.simpleicons.org/${iconKey}`}
+          alt=''
+          width={16}
+          height={16}
+        />
+      )
+    case 'logos':
+      return (
+        <img
+          src={`https://api.iconify.design/logos/${iconKey}.svg`}
+          alt=''
+          width={16}
+          height={16}
+        />
+      )
     default:
       return ''
   }

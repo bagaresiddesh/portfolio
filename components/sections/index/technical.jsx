@@ -89,7 +89,7 @@ export default function Technical () {
 
 const software = [
   { key: 'vscode', name: 'VS Code', type: 'devicon' },
-  { key: 'cursor', name: 'Cursor IDE', type: 'devicon' },
+  { key: 'cursor', name: 'Cursor IDE', type: 'si' },
   { key: 'postman', name: 'Postman', type: 'devicon' },
   { key: 'swagger', name: 'Swagger', type: 'devicon' },
   { key: 'figma', name: 'Figma', type: 'devicon' },
@@ -125,43 +125,39 @@ const tech = [
   { key: 'csharp', name: 'C#', type: 'devicon' },
   { key: 'dot-net', name: '.NET', type: 'devicon' },
   { key: 'python', name: 'Python', type: 'devicon' },
-  { key: 'json', name: 'JSON', type: 'devicon' },
-  { key: 'extjs', name: 'ExtJS', type: 'devicon' }
+  { key: 'json', name: 'JSON', type: 'devicon' }
 ]
 
 const aws = [
-  { key: 'amazonwebservices', name: 'AWS S3', type: 'devicon' },
-  { key: 'amazonwebservices', name: 'AWS Lambda', type: 'devicon' },
-  { key: 'amazonwebservices', name: 'AWS Cognito', type: 'devicon' },
-  { key: 'amazonwebservices', name: 'CloudWatch', type: 'devicon' },
-  { key: 'amazonwebservices', name: 'IAM', type: 'devicon' },
-  { key: 'amazonwebservices', name: 'AWS SAM', type: 'devicon' },
-  { key: 'amazonwebservices', name: 'Secrets Manager', type: 'devicon' },
-  { key: 'amazonwebservices', name: 'EventBridge', type: 'devicon' },
-  { key: 'amazonwebservices', name: 'CloudFront', type: 'devicon' },
-  { key: 'amazonwebservices', name: 'CodeCommit', type: 'devicon' },
-  { key: 'amazonwebservices', name: 'AWS Serverless', type: 'devicon' },
-  { key: 'amazonwebservices', name: 'AWS Amplify', type: 'devicon' },
-  { key: 'amazonwebservices', name: 'AWS SQS', type: 'devicon' },
-  { key: 'amazonwebservices', name: 'AWS SES', type: 'devicon' },
-  { key: 'amazonwebservices', name: 'Step Functions', type: 'devicon' },
-  { key: 'amazonwebservices', name: 'CloudFormation', type: 'devicon' },
-  { key: 'amazonwebservices', name: 'AWS RDS', type: 'devicon' }
+  { key: 'aws-s3', name: 'AWS S3', type: 'logos' },
+  { key: 'aws-lambda', name: 'AWS Lambda', type: 'logos' },
+  { key: 'aws-cognito', name: 'AWS Cognito', type: 'logos' },
+  { key: 'aws-cloudwatch', name: 'CloudWatch', type: 'logos' },
+  { key: 'aws-iam', name: 'IAM', type: 'logos' },
+  { key: 'aws-secrets-manager', name: 'Secrets Manager', type: 'logos' },
+  { key: 'aws-eventbridge', name: 'EventBridge', type: 'logos' },
+  { key: 'aws-cloudfront', name: 'CloudFront', type: 'logos' },
+  { key: 'aws-codecommit', name: 'CodeCommit', type: 'logos' },
+  { key: 'serverless', name: 'AWS Serverless', type: 'logos' },
+  { key: 'aws-amplify', name: 'AWS Amplify', type: 'logos' },
+  { key: 'aws-sqs', name: 'AWS SQS', type: 'logos' },
+  { key: 'aws-ses', name: 'AWS SES', type: 'logos' },
+  { key: 'aws-step-functions', name: 'Step Functions', type: 'logos' },
+  { key: 'aws-cloudformation', name: 'CloudFormation', type: 'logos' },
+  { key: 'aws-rds', name: 'AWS RDS', type: 'logos' }
 ]
 
 const aiAndIntegrations = [
-  { key: 'robot', name: 'LangChain', type: 'fas' },
-  { key: 'streamlit', name: 'Streamlit', type: 'devicon' },
-  { key: 'robot', name: 'OpenAI', type: 'fas' },
-  { key: 'robot', name: 'FAISS', type: 'fas' },
-  { key: 'robot', name: 'Claude Code', type: 'fas' },
-  { key: 'robot', name: 'GitHub Copilot', type: 'fas' },
-  { key: 'robot', name: 'Stability AI', type: 'fas' },
-  { key: 'microphone', name: 'Alexa Skill Kit', type: 'fas' },
-  { key: 'credit-card', name: 'Stripe API', type: 'fas' },
-  { key: 'plug', name: 'Zapier', type: 'fas' },
-  { key: 'shield-alt', name: 'reCAPTCHA', type: 'fas' },
-  { key: 'envelope', name: 'Zoho Campaigns', type: 'fas' },
-  { key: 'certificate', name: 'AZ-900 Azure', type: 'fas' },
-  { key: 'certificate', name: 'Claude 101', type: 'fas' }
+  { key: 'langchain', name: 'LangChain', type: 'si' },
+  { key: 'streamlit', name: 'Streamlit', type: 'si' },
+  { key: 'openai-icon', name: 'OpenAI', type: 'logos' },
+  { key: 'claudecode', name: 'Claude Code', type: 'si' },
+  { key: 'githubcopilot', name: 'GitHub Copilot', type: 'si' },
+  { key: 'stability-ai-icon', name: 'Stability AI', type: 'logos' },
+  { key: 'amazonalexa', name: 'Alexa Skill Kit', type: 'si' },
+  { key: 'stripe', name: 'Stripe API', type: 'si' },
+  { key: 'zapier', name: 'Zapier', type: 'si' },
+  { key: 'recaptcha', name: 'reCAPTCHA', type: 'logos' },
+  { key: 'zoho', name: 'Zoho Campaigns', type: 'si' },
+  { key: 'microsoft-azure', name: 'AZ-900 Azure', type: 'logos' }
 ]
