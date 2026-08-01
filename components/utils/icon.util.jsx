@@ -2,14 +2,49 @@
 import { useEffect, useState } from 'react'
 
 // Font Awesome packages
-const { library, config } = require('@fortawesome/fontawesome-svg-core')
+const { library } = require('@fortawesome/fontawesome-svg-core')
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { fas } from '@fortawesome/free-solid-svg-icons'
-import { far } from '@fortawesome/free-regular-svg-icons'
-import { fab } from '@fortawesome/free-brands-svg-icons'
+import {
+  faBriefcase,
+  faCode,
+  faSeedling,
+  faToolbox,
+  faLaptopCode,
+  faCloud,
+  faRobot,
+  faPalette,
+  faEnvelope,
+  faMicrophone,
+  faCreditCard,
+  faPlug,
+  faShieldHalved,
+  faCertificate
+} from '@fortawesome/free-solid-svg-icons'
+import {
+  faGithub,
+  faLinkedin,
+  faInstagram
+} from '@fortawesome/free-brands-svg-icons'
 
-// Load icons into library
-library.add(fas, far, fab)
+library.add(
+  faBriefcase,
+  faCode,
+  faSeedling,
+  faToolbox,
+  faLaptopCode,
+  faCloud,
+  faRobot,
+  faPalette,
+  faEnvelope,
+  faMicrophone,
+  faCreditCard,
+  faPlug,
+  faShieldHalved,
+  faCertificate,
+  faGithub,
+  faLinkedin,
+  faInstagram
+)
 
 // Map Pro icon types to free equivalents
 const typeMap = { fat: 'fas', fal: 'far', fad: 'fas' }
