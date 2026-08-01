@@ -89,7 +89,6 @@ export default function Technical () {
 
 const software = [
   { key: 'vscode', name: 'VS Code', type: 'devicon' },
-  { key: 'cursor', name: 'Cursor IDE', type: 'si' },
   { key: 'postman', name: 'Postman', type: 'devicon' },
   { key: 'swagger', name: 'Swagger', type: 'devicon' },
   { key: 'figma', name: 'Figma', type: 'devicon' },
